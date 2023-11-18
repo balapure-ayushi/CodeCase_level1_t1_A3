@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Navigation Menu</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cookie&family=Courgette&family=El+Messiri:wght@700&family=Libre+Baskerville&family=Outfit&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        h1 {
+            font-family: 'Courgette', cursive;
+        }
+
+        .container {
+            display: flex;
+        }
+        .text
+        {
+            padding: 20px;
+        }
+
+        .container h1 {
+            font-size: 20px;
+            margin-top: 100px;
+        }
+
+
+        @media screen and (max-width:600px) {
+            nav{
+                text-align: center;
+            }
+            nav a {
+                float: none;
+                display: block;
+                width: 100%;
+                text-align: left;
+            }
+            .container h1
+            {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Simple Navigation Menu</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <content>
+        <div class="container">
+            <img src="b1.png" alt="image">
+            <div class="text">
+                <h1>This is simple Design and code a simple navigation
+                    menu with three links using HTML and
+                    CSS</h1>
+                <p>A navigation bar (also called a Navbar) is a user interface element within a webpage that contains
+                    links to other sections of the website. In most cases, the navigation bar is part of the main
+                    website template, which means it is displayed on most, if not all, of the pages within the website.
+                    A Navigation bar or navigation system comes under GUI that helps the visitors in accessing information. It is the UI element on a webpage that includes links for the other sections of the website. A navigation bar is mostly displayed on the top of the page in the form of a horizontal list of links.
+                    <br><br>There are several ways to incorporate a Navbar in your website including:
+                <ul>
+                    <li>React Navbar</li>
+                    <li>Bootstrap Navbar</li>
+                    <li>CSS Navbar</li>
+                </ul>
+
+                </p>
+
+
+            </div>
+
+        </div>
+    </content>
+
+</body>
+
+</html>
